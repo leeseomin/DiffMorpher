@@ -1,3 +1,6 @@
+h5py
+typing-extensions
+wheel 
 accelerate==0.23.0
 diffusers==0.17.1
 einops==0.7.0
