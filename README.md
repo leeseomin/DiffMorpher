@@ -33,6 +33,44 @@
   <br>
 </p>
 
+
+## windows install
+
+```
+python -m venv myenv
+
+myenv\Scripts\activate
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python app.py
+```
+
+
+
+To install the requirements, run the following in your environment first:
+```bash
+pip install -r requirements.txt
+```
+To run the code with CUDA properly, you can comment out `torch` and `torchvision` in `requirement.txt`, and install the appropriate version of `torch` and `torchvision` according to the instructions on [PyTorch](https://pytorch.org/get-started/locally/).
+
+You can also download the pretrained model *Stable Diffusion v2.1-base* from [Huggingface](https://huggingface.co/stabilityai/stable-diffusion-2-1-base), and specify the `model_path` to your local directory.
+
+## Run Gradio UI
+To start the Gradio UI of DiffMorpher, run the following in your environment:
+```bash
+python app.py
+```
+Then, by default, you can access the UI at [http://127.0.0.1:7860](http://127.0.0.1:7860).
+
+
+
+
+
 ## Web Demos
 
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/KaiwenZhang/DiffMorpher)
