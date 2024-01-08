@@ -58,8 +58,18 @@ python app.py
 ```
 
 
+## ubuntu 20.04 install
 
+```
+python3 -m venv myenv
 
+source myenv/bin/activate
+
+pip install -r requirements.txt
+
+python app.py
+
+``` 
 
 ## Run Gradio UI
 To start the Gradio UI of DiffMorpher, run the following in your environment:
