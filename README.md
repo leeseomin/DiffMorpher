@@ -1,6 +1,6 @@
 <p align="center">
 
-### colab : https://colab.research.google.com/drive/16RKU0IrYuOYCzphsE4qenvKLyt8MsOjW#scrollTo=iODQDl0Riz-v
+
   
   <h1 align="center">DiffMorpher: Unleashing the Capability of Diffusion Models for Image Morphing</h1>
   <p align="center">
