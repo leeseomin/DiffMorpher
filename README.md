@@ -35,13 +35,13 @@
 
 
 
-## windows one click install and run 
+## Windows 11 : one click install and run 
 
 ```
 run.bat
 ```
 
-## windows install
+## Windows 11 : install
 
 ```
 python -m venv myenv
