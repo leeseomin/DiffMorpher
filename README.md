@@ -34,6 +34,13 @@
 </p>
 
 
+
+## windows one click install and run 
+
+```
+run.bat
+```
+
 ## windows install
 
 ```
